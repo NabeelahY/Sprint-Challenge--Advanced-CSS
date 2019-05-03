@@ -173,6 +173,8 @@ p {
   margin: 1rem;
   padding: 1rem;
   font-size: 62.5%;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
 }
 .nav .logo a {
   text-decoration: none;
@@ -207,8 +209,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .banner {
+  margin-top: -1rem;
+}
 .home .banner img {
   width: 100%;
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
