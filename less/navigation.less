@@ -4,6 +4,8 @@
     flex-direction: column;
     text-align: center;
     .pad-margin(1rem);
+    font-size: 62.5%;
+    
 
     .logo {
         a {
@@ -12,16 +14,17 @@
     }
     .nav-bar {
         .flexbox-style(flex, center);
-        @media @phone {
-            .flexbox-style(flex, center);
-        }
         .pad-margin(0.3rem);
     
         a {
             text-decoration: none;
             color: @river-bend;
-            font-size: 1.5rem;
+            font-size: 3em;
             .pad-margin(0.5rem);
+            @media @phone {
+                .pad-margin(0.3rem);
+                font-size: 2em;
+              }
         }
     }
 }
