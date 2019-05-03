@@ -181,6 +181,9 @@ p {
   background-color: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
 }
+.nav:hover {
+  background-color: #81848E;
+}
 .nav .logo a {
   text-decoration: none;
 }
@@ -296,6 +299,9 @@ footer {
   border-radius: 5px;
   border: none;
 }
+.home .walk .walk-text .btn button:hover {
+  background-color: #81848E;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn button {
     width: 100%;
@@ -305,6 +311,9 @@ footer {
     color: #F6F7F8;
     border-radius: 5px;
     border: none;
+  }
+  .home .walk .walk-text .btn button:hover {
+    background-color: #81848E;
   }
 }
 @media (min-width: 750px) and (max-width: 1023px) {
@@ -316,6 +325,9 @@ footer {
     color: #F6F7F8;
     border-radius: 5px;
     border: none;
+  }
+  .home .walk .walk-text .btn button:hover {
+    background-color: #81848E;
   }
 }
 .home .walk .walk-img {

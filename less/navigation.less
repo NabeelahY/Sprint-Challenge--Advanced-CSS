@@ -7,7 +7,10 @@
     font-size: 62.5%;
     background-color: @wild-sand;
     border-bottom: 1px solid @sea-shell;
-    
+    &:hover {
+        background-color: @waterloo;
+    }
+
     .logo {
         a {
             text-decoration: none; 
@@ -22,6 +25,7 @@
             color: @river-bend;
             font-size: 3em;
             .pad-margin(0.5rem);
+        
             @media @phone {
                 .pad-margin(0.3rem);
                 font-size: 2em;
