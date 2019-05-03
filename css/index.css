@@ -159,6 +159,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 110px;
 }
 @media (max-width: 500px) {
   .container {
@@ -171,6 +172,8 @@ p {
   }
 }
 .nav {
+  position: fixed;
+  width: 95%;
   display: flex;
   justify-content: center;
   flex-direction: column;
