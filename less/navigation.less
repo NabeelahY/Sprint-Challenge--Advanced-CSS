@@ -1,1 +1,39 @@
 // Navigation code here
+.nav{
+    position: fixed;
+    width: 95%;
+    opacity:0.7;
+    .flexbox-style(flex, center);
+    flex-direction: column;
+    text-align: center;
+    .pad-margin(1rem);
+    font-size: 62.5%;
+    background-color: @wild-sand;
+    border-bottom: 1px solid @sea-shell;
+    &:hover {
+        background-color: @waterloo;
+    }
+
+    .logo {
+        a {
+            text-decoration: none; 
+        }
+    }
+    .nav-bar {
+        .flexbox-style(flex, center);
+        .pad-margin(0.3rem);
+    
+        a {
+            text-decoration: none;
+            color: @river-bend;
+            font-size: 3em;
+            .pad-margin(0.5rem);
+        
+            @media @phone {
+                .pad-margin(0.3rem);
+                font-size: 2em;
+              }
+        }
+    }
+}
+
